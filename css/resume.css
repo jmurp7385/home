@@ -78,7 +78,13 @@ hr.star-primary {
     text-align: center;
     font-size: 20px;
     line-height: 45px;
-    color: #00df00;
+    color: #fff;
+}
+
+.btn-social:hover{
+    color: #000;
+    background-color: #00df00;
+    border-color: #00df00; /*set the color you want here*/
 }
 
 .btn {
