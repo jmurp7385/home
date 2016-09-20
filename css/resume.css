@@ -86,15 +86,15 @@ hr.star-primary {
 }
 
 .btn {
-	background-color: #8c8c8c;
-	outline-color: #8c8c8c;
-	border: 2px solid #8c8c8c;
+	background-color: #00df00;
+	outline-color: ; #00df00
+	border: 2px solid #00df00;
 }
 
 .btn:hover{
     color: #000;
-    background-color: #00df00;
-    border-color: #00df00; /*set the color you want here*/
+    background-color: #8c8c8c;
+    border-color: #8c8c8c; /*set the color you want here*/
 }
 
 .img-profile {
