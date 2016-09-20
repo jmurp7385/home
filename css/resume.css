@@ -1,7 +1,7 @@
 header {
     text-align: center;
-    color: crimson;
-    background: url("../img/sourcecode.jpg") grey;
+    color: #00df00;
+    background: url("../img/sourcecode.jpg") black;
     background-size: 100% 100%;
     padding-top: 3%;
     padding-bottom: 45%;
