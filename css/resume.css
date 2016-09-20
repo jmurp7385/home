@@ -7,8 +7,8 @@ header {
 }
 
     header .container {
-        padding-top: 100px;
-        padding-bottom: 50px;
+        padding-top: 25%;
+        padding-bottom: 10%;
     }
 
     header img {
@@ -20,12 +20,12 @@ header {
         display: block;
         text-transform: uppercase;
         font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 2em;
+        font-size: 5em;
         font-weight: 700;
     }
 
     header .intro-text .skills {
-        font-size: 1.25em;
+        font-size: 2em;
         font-weight: 300;
     }
 
