@@ -1,7 +1,7 @@
 header {
     text-align: center;
     color: #fff;
-    background: #18bc9c;
+    background: crimson;
     padding-top: 3%;
     padding-bottom: 400px;
 }
@@ -56,7 +56,7 @@ hr.star-light {
 
     hr.star-light:after {
         color: #fff;
-        background-color: #18bc9c;
+        background-color: crimson;
     }
 
 hr.star-primary {
@@ -65,7 +65,7 @@ hr.star-primary {
 
     hr.star-primary:after {
         color: #2c3e50;
-        background-color: darksalmon;
+        background-color: black;
     }
 
 .btn-social {
@@ -89,14 +89,14 @@ hr.star-primary {
 
 .about {
     text-align: center;
-    background-color: cornflowerblue;
+    background-color: black;
     color: white;
     padding-top: 25%;
     padding-bottom: 40%;
 }
 
 .portfolio {
-    background-color: lightcoral;
+    background-color: grey;
     color: white;
     padding-top: 50px;
     padding-bottom: 25%;
@@ -104,7 +104,7 @@ hr.star-primary {
 }
 
 .contact {
-    background-color: darksalmon;
+    background-color: black;
     color: white;
     padding-top: 50px;
     padding-bottom: 25%;
@@ -157,7 +157,7 @@ hr.star-bright {
 
     hr.star-bright:after {
         color: #fff;
-        background-color: darksalmon;
+        background-color: black;
     }
 
 hr.star-dark {
@@ -196,7 +196,7 @@ hr.star-night {
 
     hr.star-night:after {
         color: #fff;
-        background-color: lightcoral;
+        background-color: grey;
     }
 
     hr.star-about:after{
@@ -215,5 +215,5 @@ hr.star-about {
 
     hr.star-about:after {
         color: #fff;
-        background-color: cornflowerblue;
+        background-color: black;
     }
