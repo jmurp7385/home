@@ -77,6 +77,7 @@ hr.star-primary {
     text-align: center;
     font-size: 20px;
     line-height: 45px;
+    color: crimson;
 }
 
 .img-profile {
@@ -106,7 +107,7 @@ hr.star-primary {
 .contact {
     background-color: black;
     color: white;
-    padding-top: 50px;
+    padding-top: 20%;
     padding-bottom: 25%;
 }
 
