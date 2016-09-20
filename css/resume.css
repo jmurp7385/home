@@ -52,20 +52,20 @@ hr.star-primary {
     }
 
 hr.star-light {
-    border-color: #fff;
+    border-color: #00df00;
 }
 
     hr.star-light:after {
-        color: #fff;
+        color: #00df00;
         background-color: black;
     }
 
 hr.star-primary {
-    border-color: #2c3e50;
+    border-color: #00df00;
 }
 
     hr.star-primary:after {
-        color: #2c3e50;
+        color: #00df00;
         background-color: black;
     }
 
@@ -166,11 +166,11 @@ hr.star-bright:after, hr.star-dark:after {
 }
 
 hr.star-bright {
-    border-color: #fff;
+    border-color: #00df00;
 }
 
     hr.star-bright:after {
-        color: #fff;
+        color: #00df00;
         background-color: black;
     }
 
@@ -180,7 +180,7 @@ hr.star-dark {
 
     hr.star-dark:after {
         color: white;
-        background-color: #18bc9c;
+        background-color:black;
     }
 
     @media(min-width:1023px) {
@@ -205,12 +205,12 @@ hr.star-night:after{
 }
 
 hr.star-night {
-    border-color: #fff;
+    border-color: #00df00;
 }
 
     hr.star-night:after {
-        color: #fff;
-        background-color: grey;
+        color: #00df00;
+        background-color: black;
     }
 
     hr.star-about:after{
@@ -224,10 +224,10 @@ hr.star-night {
 }
 
 hr.star-about {
-    border-color: #fff;
+    border-color: #00df00;
 }
 
     hr.star-about:after {
-        color: #fff;
+        color: #00df00;
         background-color: black;
     }
