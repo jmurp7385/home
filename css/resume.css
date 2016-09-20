@@ -82,9 +82,7 @@ hr.star-primary {
 }
 
 .btn-social:hover{
-    color: #000;
-    background-color: #00df00;
-    border-color: #00df00; /*set the color you want here*/
+    color: #00df00;  
 }
 
 .btn {
