@@ -92,7 +92,7 @@ hr.star-primary {
 }
 
 .btn:hover{
-    color: #000;
+    color: #FFF;
     background-color: #8c8c8c;
     border-color: #8c8c8c; /*set the color you want here*/
 }
