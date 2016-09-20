@@ -80,6 +80,18 @@ hr.star-primary {
     color: crimson;
 }
 
+.btn {
+	background-color: crimson;
+	outline-color: crimson;
+	border: 2px solid crimson;
+}
+
+.btn:hover{
+    color: #000;
+    background-color: #FFF;
+    border-color: #FFF; /*set the color you want here*/
+}
+
 .img-profile {
     width: 250px;
     border-color: black;
