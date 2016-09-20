@@ -89,10 +89,11 @@ hr.star-primary {
 	background-color: #00df00;
 	outline-color: ; #00df00
 	border: 2px solid #00df00;
+	color: #000;
 }
 
 .btn:hover{
-    color: #FFF;
+    color: #000;
     background-color: #8c8c8c;
     border-color: #8c8c8c; /*set the color you want here*/
 }
