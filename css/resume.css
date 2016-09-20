@@ -205,11 +205,11 @@ hr.star-night:after{
 }
 
 hr.star-night {
-    border-color: #00df00;
+    border-color: #fff;
 }
 
     hr.star-night:after {
-        color: #00df00;
+        color: #fff;
         background-color: black;
     }
 
@@ -224,10 +224,10 @@ hr.star-night {
 }
 
 hr.star-about {
-    border-color: #00df00;
+    border-color: #fff;
 }
 
     hr.star-about:after {
-        color: #00df00;
+        color: #fff;
         background-color: black;
     }
