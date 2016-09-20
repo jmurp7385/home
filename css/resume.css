@@ -108,7 +108,7 @@ hr.star-primary {
 .about {
     text-align: center;
     background-color: black;
-    color: #00df00;
+    color: #fff;
     padding-top: 25%;
     padding-bottom: 40%;
 }
@@ -123,7 +123,7 @@ hr.star-primary {
 
 .contact {
     background-color: black;
-    color: #00df00;
+    color: #fff;
     padding-top: 20%;
     padding-bottom: 25%;
 }
