@@ -8,7 +8,7 @@ header {
 }
 
     header .container {
-        padding-top: 25%;
+        padding-top: 10%;
         padding-bottom: 10%;
     }
 
@@ -57,7 +57,7 @@ hr.star-light {
 
     hr.star-light:after {
         color: #fff;
-        background-color: grey;
+        background-color: black;
     }
 
 hr.star-primary {
