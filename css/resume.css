@@ -68,6 +68,11 @@ hr.star-primary {
         color: white;
         background-color: black;
     }
+    
+.img {
+	height: 75%;
+	width: 75%;
+}
 
 .btn-social {
     display: inline-block;
