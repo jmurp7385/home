@@ -1,34 +1,36 @@
 header {
-    text-align: center;
-    color: #00df00;
-    background: url("../img/sourcecode.jpg") black;
-    background-size: 100% 100%;
-    padding-top: 3%;
-    padding-bottom: 45%;
+  text-align: center;
+  color: #00df00;
+  /*background: url("../img/sourcecode.jpg") black;*/
+  background-color: black;
+  background-size: 100% 100%;
+  padding-top: 3%;
+  padding-bottom: 45%;
 }
 
-    header .container {
-        padding-top: 10%;
-        padding-bottom: 10%;
-    }
+  header .container {
+    padding-top: 10%;
+    padding-bottom: 10%;
+  }
 
-    header img {
-        display: block;
-        margin: 0 auto 20px;
-    }
+  header img {
+    display: block;
+    margin: 0 auto 20px;
+  }
 
-    header .intro-text .name {
-        display: block;
-        text-transform: uppercase;
-        font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 5em;
-        font-weight: 700;
-    }
+  header .intro-text .name {
+    display: block;
+    text-transform: uppercase;
+    font-family: Pacifico ,Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 5em;
+    font-weight: 700;
+  }
 
     header .intro-text .skills {
-        font-size: 2em;
-        font-weight: 300;
-    }
+      font-size: 2em;
+      font-weight: 300;
+      margin-top: 10px;
+  }
 
 hr.star-light,
 hr.star-primary {
@@ -68,7 +70,7 @@ hr.star-primary {
         color: white;
         background-color: black;
     }
-    
+
 img {
 	height: 75%;
 	width: 75%;
@@ -87,7 +89,7 @@ img {
 }
 
 .btn-social:hover{
-    color: #00df00;  
+    color: #00df00;
 }
 
 .btn {

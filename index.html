@@ -2,212 +2,213 @@
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <meta charset="utf-8" />
-    <!-- Bootstrp CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/resume.css">
-
-    <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-
-    <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-
-    <!-- Latest compiled JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
- <!--   <script src="https://github.com/kswedberg/jquery-smooth-scroll/blob/master/jquery.smooth-scroll.min.js"></script> -->
-    <title>Joey Murphy</title>
-    <link rel="shortcut icon" type="image/ico" href="img/new_j.jpg" />
+  <meta charset="utf-8" />
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/resume.css">
+  <link rel="stylesheet" href="css/neon.css">
+  <!-- Custom Fonts -->
+  <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <!-- Latest compiled JavaScript -->
+  <script src="js/bootstrap.min.js"></script>
+  <!--<script src="https://github.com/kswedberg/jquery-smooth-scroll/blob/master/jquery.smooth-scroll.min.js"></script> -->
+  <title>Joey Murphy</title>
+  <link rel="shortcut icon" type="image/ico" href="img/new_j.jpg" />
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
-    <!--Nav HTML Starts Here-->
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <a class="navbar-brand glyphicon glyphicon-home" href="#home"></a>
+  <!--Nav HTML Starts Here-->
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand glyphicon glyphicon-home" href="#home"></a>
+      </div>
+      <ul class="nav navbar-nav navbar-right">
+        <li class="page-scroll"><a href="#about">About</a></li>
+        <li class="page-scroll"><a href="#portfolio">Portfolio</a></li>
+        <li class="page-scroll"><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <!--Nav HTML Ends Here-->
+  <!--Home HTML Starts Here-->
+  <header id="home">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="intro-text">
+            <div class="sign-wrap-green">
+              <div class="sign-green">
+                <span class="name neon-green">Joey Murphy</span>
+              </div>
             </div>
-            <ul class="nav navbar-nav navbar-right">
-                <li class="page-scroll"><a href="#about">About</a></li>
-                <li class="page-scroll"><a href="#portfolio">Portfolio</a></li>
-                <li class="page-scroll"><a href="#contact">Contact</a></li>
+            <p class="skills">Developer - Student - Tech Enthusiast</p><br />
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!--Home HTML Ends Here-->
+  <!-- About HTML Starts Here -->
+  <section id="about" class="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <h1>About Joey</h1>
+          <hr class="star-about">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <p>I am a senior at The University of Alabama studying Computer Science and Mathematics. Hackathons are the best.
+             I enjoy developing websites, with Flask, and iOS apps. I always enjoy learning new frameworks and technologies.
+             In my free time I like to juggle, play disc golf, and read. </p>
+        </div>
+        <div class="col-lg-8 col-lg-offset-2">
+          <a href="https://docs.google.com/document/d/1EeEunsgr6eUcbi5vxAm3HTzEyas2dT1dYNNv0SzaXmM/edit?usp=sharing">
+            <button href="#" class="btn btn-lg btn-outline btn-primary">
+              <i class="fa fa-download"></i> Resume
+            </button>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--About HTML Ends Here-->
+  <!--Portfolio HTML Starts Here-->
+  <section id="portfolio" class="portfolio">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h1>Portfolio</h1>
+          <hr class="star-night">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xs-offset-1 col-sm-offset-1 col-md-offset-0 col-lg-offset-0">
+          <a href="/WarOfTheRing">
+            <img src="img/portfolio/WarOfTheRing.PNG" class="img-responsive img-portfolio">
+            </a>
+            <p>Lord Of The Rings Text Adventure</p>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xs-offset-1 col-sm-offset-1 col-md-offset-0 col-lg-offset-0">
+          <a href="/MiniGameMadness">
+          <img src="img/portfolio/MiniGameMadness.PNG" class="img-responsive img-portfolio">
+          </a>
+          <p>MiniGameMadness</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xs-offset-1 col-sm-offset-1 col-md-offset-0 col-lg-offset-0">
+          <a href="/wikiviewer">
+          <img src="img/portfolio/viewer.PNG" class="img-responsive img-portfolio">
+          </a>
+          <p>Wikipedia Viewer</p>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xs-offset-1 col-sm-offset-1 col-md-offset-0 col-lg-offset-0">
+          <a href="/Weather">
+          <img src="img/portfolio/weather.PNG" class="img-responsive img-portfolio">
+          </a>
+          <p>Local Weather Site</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xs-offset-1 col-sm-offset-1 col-md-offset-0 col-lg-offset-0">
+          <a href="/NumberWizardUI">
+          <img src="img/portfolio/NumberWizardUI.PNG" class="img-responsive img-portfolio">
+          </a>
+          <p>Number Wizard</p>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xs-offset-1 col-sm-offset-1 col-md-offset-0 col-lg-offset-0">
+          <a href="/randomQuoteGen">
+          <img src="img/portfolio/quotes.PNG" class="img-responsive img-portfolio">
+          </a>
+          <p>Local Weather Site</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xs-offset-1 col-sm-offset-1 col-md-offset-0 col-lg-offset-0">
+          <a href="/jscalculator">
+          <img src="img/portfolio/Calculator.PNG" class="img-responsive img-portfolio">
+          </a>
+          <p>JavaScript Calculator</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Portfolio HTML Ends Here-->
+  <!-- Contact HTML Starts Here -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h1>Contact Me</h1>
+          <hr class="star-bright">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2" id="contactForm">
+          <div class="text-center">
+            <h3>Contact me Social Media Pages</h3>
+            <a href="https://www.facebook.com/joey.murphy.902" class="btn btn-lg btn-primary">Facebook</a>
+            <a href="https://www.freecodecamp.com/jmurp7385" class="btn btn-lg btn-primary">FreeCodeCamp</a>
+            <a href="http://bit.ly/28NqVdw" class="btn btn-lg btn-primary">LinkedIn</a>
+            <a href="https://github.com/jmurp7385" class="btn btn-lg btn-primary">GitHub</a>
+            <h3>Or send an email:</h3>
+            <h3>jmurp7385@gmail.com</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Contact HTML Ends Here-->
+  <!-- Footer HTML Starts Here -->
+  <footer class="text-center">
+    <div class="footer-above">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col col-md-4" style="padding-top:30px;">
+          </div>
+          <div class="footer-col col-md-4">
+            <h3>Around the Web</h3>
+            <ul class="list-inline">
+              <li>
+                <a href="https://www.facebook.com/joey.murphy.902" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+              </li>
+              <li>
+                <a href="https://twitter.com/joeymurphy7385" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href="http://bit.ly/28NqVdw" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+              </li>
+              <li>
+                <a href="https://github.com/jmurp7385" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
+              </li>
             </ul>
+          </div>
+          <div class="footer-col col-md-4"></div>
         </div>
-    </nav>
-    <!--Nav HTML Ends Here-->
-    <!--Home HTML Starts Here-->
-    <header id="home">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="intro-text">
-                        <span class="name">Joey Murphy</span>
-                        <hr class="star-light">
-                        <span class="skills">Developer - Student - Tech Enthusiast</span><br />
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
-    <!--Home HTML Ends Here-->
-    <!-- About HTML Starts Here -->
-    <section id="about" class="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <h1>About Joey</h1>
-                    <hr class="star-about">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <p>I am a senior at The University of Alabama studying Computer Science and Mathematics. I enjoy developing websites
-                       with both Ruby on Rails and Node.js and also iOS apps. I always enjoy learning new frameworks and technologies.
-                       In my free time I like to learn new frameworks, juggle, play, disc golf, and read. </p>
-                </div>
-                <div class="col-lg-8 col-lg-offset-2">
-                    <a href="https://docs.google.com/document/d/1EeEunsgr6eUcbi5vxAm3HTzEyas2dT1dYNNv0SzaXmM/edit?usp=sharing">
-                        <button href="#" class="btn btn-lg btn-outline btn-primary">
-                            <i class="fa fa-download"></i> Resume
-                        </button>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--About HTML Ends Here-->
-    <!--Portfolio HTML Starts Here-->
-    <section id="portfolio" class="portfolio">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1>Portfolio</h1>
-                    <hr class="star-night">
-                </div>
-            </div>
-            <div class="row">
-                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xs-offset-1 col-sm-offset-1 col-md-offset-0 col-lg-offset-0">
-                    <a href="/WarOfTheRing">
-                     <img src="img/portfolio/WarOfTheRing.PNG" class="img-responsive img-portfolio">
-                     </a>
-                     <p>Lord Of The Rings Text Adventure</p>
-                </div>
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xs-offset-1 col-sm-offset-1 col-md-offset-0 col-lg-offset-0">
-                    <a href="/MiniGameMadness">
-                    <img src="img/portfolio/MiniGameMadness.PNG" class="img-responsive img-portfolio">
-                    </a>
-                    <p>MiniGameMadness</p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xs-offset-1 col-sm-offset-1 col-md-offset-0 col-lg-offset-0">
-                    <a href="/wikiviewer">
-                    <img src="img/portfolio/viewer.PNG" class="img-responsive img-portfolio">
-                    </a>
-                    <p>Wikipedia Viewer</p>
-                </div>
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xs-offset-1 col-sm-offset-1 col-md-offset-0 col-lg-offset-0">
-                    <a href="/Weather">
-                    <img src="img/portfolio/weather.PNG" class="img-responsive img-portfolio">
-                    </a>
-                    <p>Local Weather Site</p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xs-offset-1 col-sm-offset-1 col-md-offset-0 col-lg-offset-0">
-                    <a href="/NumberWizardUI">
-                    <img src="img/portfolio/NumberWizardUI.PNG" class="img-responsive img-portfolio">
-                    </a>
-                    <p>Number Wizard</p>
-                </div>
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xs-offset-1 col-sm-offset-1 col-md-offset-0 col-lg-offset-0">
-                    <a href="/randomQuoteGen">
-                    <img src="img/portfolio/quotes.PNG" class="img-responsive img-portfolio">
-                    </a>
-                    <p>Local Weather Site</p>
-                </div>
-            </div>
-            <div class="row">
-                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xs-offset-1 col-sm-offset-1 col-md-offset-0 col-lg-offset-0">
-                    <a href="/jscalculator">
-                     <img src="img/portfolio/Calculator.PNG" class="img-responsive img-portfolio">
-                     </a>
-                     <p>JavaScript Calculator</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--Portfolio HTML Ends Here-->
-    <!-- Contact HTML Starts Here -->
-    <section id="contact" class="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h1>Contact Me</h1>
-                    <hr class="star-bright">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2" id="contactForm">
-                    <div class="text-center">
-                        <h3>Contact me Social Media Pages</h3>
-                        <a href="https://www.facebook.com/joey.murphy.902" class="btn btn-lg btn-primary">Facebook</a>
-                        <a href="https://www.freecodecamp.com/jmurp7385" class="btn btn-lg btn-primary">FreeCodeCamp</a>
-                        <a href="http://bit.ly/28NqVdw" class="btn btn-lg btn-primary">LinkedIn</a>
-                        <a href="https://github.com/jmurp7385" class="btn btn-lg btn-primary">GitHub</a>
-                        <h3>Or send an email:</h3>
-                        <h3>jmurp7385@gmail.com</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--Contact HTML Ends Here-->
-    <!-- Footer HTML Starts Here -->
-    <footer class="text-center">
-        <div class="footer-above">
-            <div class="container">
-                <div class="row">
-                    <div class="footer-col col-md-4" style="padding-top:30px;">
-                    </div>
-                    <div class="footer-col col-md-4">
-                        <h3>Around the Web</h3>
-                        <ul class="list-inline">
-                            <li>
-                                <a href="https://www.facebook.com/joey.murphy.902" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
-                            </li>
-                            <li>
-                                <a href="https://twitter.com/joeymurphy7385" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
-                            </li>
-                            <li>
-                                <a href="http://bit.ly/28NqVdw" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
-                            </li>
-                            <li>
-                                <a href="https://github.com/jmurp7385" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="footer-col col-md-4"></div>
-                </div>
-            </div>
-        </div>
-        <div class="footer-below">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        Copyright &copy; Joey Murphy 2017
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!--Footer HTML Ends Here-->
-
-    <!-- Contact Form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
+      </div>
+    </div>
+    <div class="footer-below">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-12">
+                  Copyright &copy; Joey Murphy 2017
+              </div>
+          </div>
+      </div>
+    </div>
+  </footer>
+  <!--Footer HTML Ends Here-->
+  <!-- Contact Form JavaScript -->
+  <script src="js/jqBootstrapValidation.js"></script>
+  <script src="js/contact_me.js"></script>
 
 </body>
-</html> 
+</html>
